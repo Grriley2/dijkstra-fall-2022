@@ -5,12 +5,21 @@
 // day-moth-year gets converted into dayMonthYear
 // ALL-CAPS gets converted into allCaps
 
+var testString = "hello-world"
 function kebabToCamel (kebabString) {
-    let camelString;
+   let array = [];
+  let camelString = array.push(kebabString)
+   for (let i=0; i<=kebabString.length; i++) {
+     if (kebabString[i] === "-" )
+       kebabString.substr(i) && kebabString.toUpperCase(i++)
+                                                                          
+   }
+ console.log(kebabString)
+  console.log(camelString)
+ 
+   return camelString;
+  
+}
+   console.log(kebabToCamel(testString))
 
-    //loop over kebabstring
-    // - if the car dash, don't use it AND the following char would be capitalized
-    // -otherwise, copy the lowercased to camelstring
-    
-    return camelString;
 }
